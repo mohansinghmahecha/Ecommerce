@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <MainHeaader>
      <NavLink to={"/"}>
-     <img src={myImg} alt='loadsing' />
+     <img src={myImg}  style={{width :"80px",height: "80px"}} alt='loadsing' />
     </NavLink> 
     <Nav/>
 

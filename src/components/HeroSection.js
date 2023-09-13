@@ -1,47 +1,40 @@
-import React from 'react'
+import React from "react";
 
 import styled from "styled-components";
-import {Button} from "../styles/Button";
+import { Button } from "../styles/Button";
 
+const HeroSection = ({ myData }) => {
+  const { name } = myData;
 
-const HeroSection = ({myData}) => {
-   const {name} = myData;
+  return (
+    <Wrapper>
+      <div className="container">
+        <div className="grid grid-two-colomn"></div>
+        <div className="hero-section-data">
+          <p className="intro-data">{name}</p>
+          <h1>Welcome to   </h1>
+          {/* paragraph */}
+          <p>let's shop cool things</p>
+          <Button>Show Now</Button>
+        </div>
 
-  return <Wrapper>
-  <div className='container'>
-    <div className='grid grid-two-colomn'></div>
-    <div className='hero-section-data'>
-    <p className='intro-data'>
-        {name}
-    </p>
-    <h1>Welcome </h1>
-    {/* paragraph */}
-    <p>
-        lamooh ij dflkj dshk  lkj np aksd lkjdof sdkjfo lkdjf 
-        lekhme
-        postman
-        kdsljf 
-    </p>
-
-
-<Button>Show Now</Button>
-
-
-    </div>
-
-    <div className='hero-section-image'>
-    <figure>
-        <img src='images/hero.jpg' alt='image is here' className='img-style'/>
-    </figure>
-
-    </div>
-  </div>
-
-  </Wrapper>
-}
+        <div className="hero-section-image">
+          <figure>
+            <img 
+              src="images/hero.jpg"
+              alt="image is here for "
+              className="img-style "
+            />
+          </figure>
+        </div>
+      </div>
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.section`
   padding: 12rem 0;
+ 
 
   img {
     width: 10rem;
@@ -49,6 +42,11 @@ const Wrapper = styled.section`
   }
 
   .hero-section-data {
+    .new-img-style {
+      width: 80px;
+      height: 80px;
+    }
+
     p {
       margin: 2rem 0;
     }
@@ -65,7 +63,6 @@ const Wrapper = styled.section`
 
   .hero-section-image {
     width: 414px;
-
     height: auto;
     display: flex;
     justify-content: right;
@@ -89,6 +86,7 @@ const Wrapper = styled.section`
     width: 100%;
     height: auto;
   }
+  
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     .grid {
@@ -107,4 +105,4 @@ const Wrapper = styled.section`
   }
 `;
 
-export default HeroSection
+export default HeroSection;

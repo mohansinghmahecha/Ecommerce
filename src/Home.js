@@ -10,7 +10,7 @@ import FeatureProduct from './components/FeatureProduct';
 const Home = () => {
 
 const namepass = {
-  name : "mohan",
+  name : "Namaste ! Bharat ",
  };
  
  return (
