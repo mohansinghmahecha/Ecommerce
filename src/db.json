@@ -53,6 +53,60 @@
       "description": "the main body is here",
       "category": "Dangrous ",
       "featured": true
+    },
+    {
+      "id": 4,
+      "name": "phone X",
+      "company": "apple",
+      "price": 600000,
+      "stock": 2,
+      "colors": ["#377bc0", "#000000"],
+      "image": "https://picsum.photos/id/237/200/300",
+      "images": [
+        "https://picsum.photos/id/237/200/299",
+        "https://picsum.photos/id/237/200/298",
+        "https://picsum.photos/id/237/200/297"
+      ],
+
+      "description": " hey mohan dis teting",
+      "category": "mobile",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "New 14 series",
+      "company": "apple",
+      "price": 10000,
+      "stock": "4",
+      "colors": ["#ffffff", "#000000", "#377bc0"],
+      "image": "https://picsum.photos/200",
+      "images": [
+        "https://picsum.photos/seed/dog/200/300",
+        "https://picsum.photos/seed/hill/200/300",
+        "https://picsum.photos/seed/boy/200/300",
+        "https://picsum.photos/seed/girl/200/300"
+      ],
+      "description": " hey mohan dis teting",
+      "category": "mobile",
+      "featured": true
+    },
+
+    {
+      "id": 6,
+      "name": "Chatrawas",
+      "company": "Dangrous",
+      "price": 1000000000,
+      "stock": 0,
+      "colors": ["#ffffff", "#000000", "#f0f0f0"],
+      "image": "https://picsum.photos/id/237/200/300",
+      "images": [
+        "https://picsum.photos/seed/dog/200/300",
+        "https://picsum.photos/seed/hill/200/300",
+        "https://picsum.photos/seed/girl/200/300"
+      ],
+      "description": "the main body is here",
+      "category": "Dangrous ",
+      "featured": true
     }
   ],
   "comments": [
